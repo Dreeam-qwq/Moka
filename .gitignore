@@ -1,58 +1,25 @@
-# JVM crash related
-core.*
-hs_err_pid*
-
-# Intellij
-.idea/
-*.iml
-*.ipr
-*.iws
-out/
-
-# Eclipse
-.classpath
-.project
-.settings/
-
-# netbeans
-nbproject/
-nbactions.xml
-
-# Gradle
-!gradle-wrapper.jar
-.gradle/
-build/
-*/build/
-
-# we use maven!
-build.xml
-
-# Maven
-log/
-target/
-dependency-reduced-pom.xml
-
-# various other potential build files
-build/
-bin/
-dist/
-manifest.mf
-
-# Mac
+# Mac filesystem dust
 .DS_Store/
 .DS_Store
-
-# vim
-.*.sw[a-p]
 
 # Linux temp files
 *~
 
-# other stuff
-run/
+# IntelliJ
+*.iml
+.idea
 
-build-data/
-Hearse-API
-Hearse-Server
-*.jar
-/patches/todo/
+# Gradle
+!gradle/wrapper/gradle-wrapper.jar
+.gradle
+build
+
+# Moka
+build-data
+patches/todo
+run
+
+Moka-API
+Moka-MojangAPI
+Moka-Server
+paper-api-generator
